@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class FileManyFunction1 {
 	public static void main(String[] args)throws Exception {
-		
+		//
 		File txtFile = new File("D:\\dev\\FileIOTextFile.txt");
 		txtFile.createNewFile();
 		File txtFolder =new File("D:\\dev\\FileIOFolder");
