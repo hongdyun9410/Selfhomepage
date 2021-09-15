@@ -32,6 +32,7 @@ public class IOManyFuntion {
 		System.out.println("strEuckr : "+strEuckr);
 		System.out.println("strUTF8 : "+strUTF8);
 		System.out.println();
+		System.out.println();
 	}
 
 }
