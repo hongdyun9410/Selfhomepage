@@ -6,12 +6,19 @@ public class MemberDto {
 	private String memberId;
 	private String memberPw;
 	private String memberNick;
+	private Date memberBirth;
 	private String memberEmail;
 	private String memberPhone;
 	private Date memberJoin;
 	private int memberPoint;
 	private String memberGarde;
 	
+	public Date getMemberBirth() {
+		return memberBirth;
+	}
+	public void setMemberBirth(Date memberBirth) {
+		this.memberBirth = memberBirth;
+	}
 	public String getMemberId() {
 		return memberId;
 	}
@@ -60,15 +67,16 @@ public class MemberDto {
 	public void setMemberGarde(String memberGarde) {
 		this.memberGarde = memberGarde;
 	}
+	public MemberDto() {
+		super();
+	}
 	@Override
 	public String toString() {
-		return "MemberDto [memberId=" + memberId + ", memberPw=" + memberPw + ", memberNick=" + memberNick
-				+ ", memberEmail=" + memberEmail + ", memberPhone=" + memberPhone + ", memberJoin=" + memberJoin
-				+ ", memberPoint=" + memberPoint + ", memberGarde=" + memberGarde + "]";
+		return "MemberDto [memberId=" + memberId + ", memberNick=" + memberNick
+				+ ", memberBirth=" + memberBirth + ", memberEmail=" + memberEmail + ", memberPhone=" + memberPhone
+				+ ", memberJoin=" + memberJoin + ", memberPoint=" + memberPoint + ", memberGarde=" + memberGarde + "]";
 	}
-	public MemberDto() {
-		
-	}
+
 	
 	
 	
