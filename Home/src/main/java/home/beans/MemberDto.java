@@ -6,17 +6,17 @@ public class MemberDto {
 	private String memberId;
 	private String memberPw;
 	private String memberNick;
-	private Date memberBirth;
+	private String memberBirth;
 	private String memberEmail;
 	private String memberPhone;
 	private Date memberJoin;
 	private int memberPoint;
 	private String memberGarde;
 	
-	public Date getMemberBirth() {
+	public String getMemberBirth() {
 		return memberBirth;
 	}
-	public void setMemberBirth(Date memberBirth) {
+	public void setMemberBirth(String memberBirth) {
 		this.memberBirth = memberBirth;
 	}
 	public String getMemberId() {
